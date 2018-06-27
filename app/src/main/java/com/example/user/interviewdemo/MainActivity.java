@@ -172,12 +172,14 @@ public class VillageAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     public void setServeyStatus( ItemViewHolder itemViewHolder,int numofBasic,int numofVolunt,int numofSchool,int numofTestingmela){
         Log.d("setServeyStatus2--","numofBasic"+numofBasic+"numofVolunt"+numofVolunt+"numofSchool"+numofSchool+"numofTestingmela"+numofTestingmela);
 
+/*
 
         if(numofBasic == 0){itemViewHolder.imgbtn1.setText("+");}else if(numofBasic >0){itemViewHolder.imgbtn1.setText("√");}
         if(numofVolunt == 0){itemViewHolder.imgbtn4.setText("+");}else if(numofVolunt >0){itemViewHolder.imgbtn4.setText("√");}
         if(numofSchool == 0){itemViewHolder.imgbtn2.setText("+");}else if(numofSchool >0){itemViewHolder.imgbtn2.setText("√");}
         if(numofTestingmela == 0){itemViewHolder.imgbtn3.setText("+");}else if(numofTestingmela >0){itemViewHolder.imgbtn3.setText("√");}
 
+*/
 
 
 
